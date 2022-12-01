@@ -1,0 +1,28 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "mysql db/schema.db < db/seeds.sql",
+    "db": "mysql db/schema.db",
+    "watch": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasminshea/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasminshea/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/jasminshea/Employee-Tracker#readme",
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "inquirer": "^9.1.4"
+  }
+}
